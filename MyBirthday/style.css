@@ -19,6 +19,15 @@ body {
 span {
     text-transform: uppercase;
 }
+.nhap {
+         background:#3d3d3d;
+         font-size:24px;
+         font-weight:bold;
+	 -webkit-animation: my 700ms infinite;
+	 -moz-animation: my 700ms infinite; 
+	 -o-animation: my 700ms infinite; 
+	 animation: my 700ms infinite;
+}
 .container {
     width: 800px;
     height: 100%;

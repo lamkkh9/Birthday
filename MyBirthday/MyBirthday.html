@@ -29,7 +29,10 @@
         ></script>
         <meta content="clickberry-extension-here" />
     </head>
-
+    <!-- 5. Phần nhạc -->
+    <audio id="player" autoplay loop>
+        <source src="./music.mp3" type="audio/mp3">
+    </audio>
     <body>
         <link
             href="https://fonts.googleapis.com/css?family=Wendy+One"
@@ -60,17 +63,13 @@
                     <div class="nhap"><span>D</span></div>
                     <div class="nhap"><span>A</span></div>
                     <div class="nhap"><span>Y</span></div>
-                    <div class="avatar">
+                </div>
+                <div class="avatar">
                     <!-- 3. Avatar của người bạn muốn gởi lời chúc -->
                     <img src="./MyAvatar.jpg" alt="" class="avatar__img" onclick="showMessage()" />
                     <!-- 4. Tên của người đó -->
                     <h1 onclick="showMessage()" class="avatar__title">KHANH</h1>
                 </div>
-                </div>
-                <!-- 5. Phần nhạc -->
-                <audio id="player" autoplay loop>
-                    <source src="./music.mp3" type="audio/mp3">
-                </audio>
             </div>
         </div>
         <script>
